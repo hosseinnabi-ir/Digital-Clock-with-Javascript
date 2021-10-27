@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    background: #131419;
+}
+
+.container {
+    height: 120px;
+    line-height: 120px;
+    width: 550px;
+    text-align: center;
+    box-shadow: -3px -3px 7px rgba(255, 255, 255, .05),
+                3px 3px 5px rgba(0, 0, 0, .5);
+}
+
+.container .clock {
+    font-size: 60px;
+    color: cyan;
+    letter-spacing: 5px;
+    font-family: 'Orbitron', sans-serif;
+}
